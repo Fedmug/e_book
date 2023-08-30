@@ -1,0 +1,15 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: intro
+chapters:
+  - file: euler
+    sections:
+      # - file: dec/decimals
+      # - file: dec/periodic
+      # - file: dec/irrational
+      - file: e/exp_digits
+      - file: e/exp_compound_interest
+      - file: e/exp_euler
+      - file: e/exp_in_math
