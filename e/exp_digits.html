@@ -7,7 +7,7 @@
 
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
     <title>Цифры числа \(e\) &#8212; My sample book</title>
   
@@ -2364,7 +2364,7 @@ if (typeof version == 'undefined') {
         }
         </script></div>
 </div>
-<p>Компьютеры используют стандартный тип <strong>double</strong> для записи десятичных дробей, который обычно позволяет хранить только <span class="math notranslate nohighlight">\(16\)</span> цифр после десятичной точки. Если же использовать библиотеку <a class="reference external" href="https://docs.python.org/3/library/decimal.html">decimal</a> языка Python, то можно раздобыть сколько душе угодно<a class="footnote-reference brackets" href="#digits-mem" id="id4" role="doc-noteref"><span class="fn-bracket">[</span>1<span class="fn-bracket">]</span></a> верных десятичных знаков числа <span class="math notranslate nohighlight">\(e\)</span>. Например, <span class="math notranslate nohighlight">\(100\)</span>:</p>
+<p>Компьютеры используют стандартный тип <strong>double</strong> для записи десятичных дробей, который обычно позволяет хранить только <span class="math notranslate nohighlight">\(16\)</span> цифр после десятичной точки. Если же использовать библиотеку <a class="reference external" href="https://docs.python.org/3/library/decimal.html">decimal</a> языка Python, то можно раздобыть сколько душе угодно<a class="footnote-reference brackets" href="#digits-mem" id="id4">1</a> верных десятичных знаков числа <span class="math notranslate nohighlight">\(e\)</span>. Например, <span class="math notranslate nohighlight">\(100\)</span>:</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">decimal</span> <span class="kn">import</span> <span class="n">Decimal</span><span class="p">,</span> <span class="n">getcontext</span>
@@ -4334,10 +4334,11 @@ if (typeof version == 'undefined') {
 <li><p>💻 Число <span class="math notranslate nohighlight">\(\alpha \in \mathbb R\)</span> называется <em>нормальным</em>, если в его десятичной записи все <span class="math notranslate nohighlight">\(10\)</span> цифр встречаются в равной пропорции, т.е. доля каждой составляет <span class="math notranslate nohighlight">\(10\%\)</span> (в математике это называется <strong>равномерное распределение</strong>). Подсчитайте, сколько раз встречается каждая цифра в первых <span class="math notranslate nohighlight">\(100\)</span>, <span class="math notranslate nohighlight">\(1000\)</span>, <span class="math notranslate nohighlight">\(10000\)</span> десятичных знаках числа <span class="math notranslate nohighlight">\(e\)</span>. Похоже ли, что число <span class="math notranslate nohighlight">\(e\)</span> нормальное?</p></li>
 </ol>
 <hr class="footnotes docutils" />
-<aside class="footnote brackets" id="digits-mem" role="note">
-<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id4">1</a><span class="fn-bracket">]</span></span>
-<p>Лишь бы хватило оперативы</p>
-</aside>
+<dl class="footnote brackets">
+<dt class="label" id="digits-mem"><span class="brackets"><a class="fn-backref" href="#id4">1</a></span></dt>
+<dd><p>Лишь бы хватило оперативы</p>
+</dd>
+</dl>
 </section>
 </section>
 
